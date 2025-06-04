@@ -3,6 +3,8 @@
 import { useEffect, useRef } from "react"
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion"
 import Image from "next/image"
+import TrainerPhoto1 from '../../public/photo1.webp'
+
 
 const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -175,7 +177,7 @@ const Hero = () => {
                   { number: "∞", label: "POTENTIAL" },
                 ].map((stat, index) => (
                   <div key={index} className="flex items-center gap-2">
-                    <span className="text-2xl font-bold text-yellow-500">{stat.number}</span>
+                    <span className="text-2xl font-bold text-[#fcca09]">{stat.number}</span>
                     <span className="text-xs text-gray-400 tracking-wider">{stat.label}</span>
                     <span className="mx-4 text-yellow-500/30">|</span>
                   </div>
@@ -226,6 +228,7 @@ const Hero = () => {
                   <Image
                     // src="/placeholder.svg?height=700&width=500"
                     src="https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-1229356.jpg&fm=jpg"
+                    // src={TrainerPhoto1}
                     alt="Elite Fitness"
                     fill
                     className="object-cover"

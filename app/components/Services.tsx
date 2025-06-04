@@ -44,7 +44,7 @@ const Services = () => {
   ]
 
   return (
-    <section id="services" className="py-20 bg-white dark:bg-gray-900">
+    <section id="services" className="py-20 bg-white dark:bg-gray-900 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -114,7 +114,7 @@ const Services = () => {
         >
           <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Ready to Start Your Fitness Journey?</h3>
           <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied members who have transformed their lives at PowerGym.
+            Join thousands of satisfied members who have transformed their lives at MuscleRepair.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}

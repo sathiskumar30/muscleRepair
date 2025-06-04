@@ -55,7 +55,7 @@ const Header = () => {
               <div>
                 <Image
                   src={logo}
-                  alt="PowerGym Logo"
+                  alt="MuscleRepair Logo"
                   width={60}
                   height={60}
                 />
@@ -64,7 +64,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-2xl font-black text-gray-900 dark:text-white leading-none">
-                <span className="text-yellow-500"> Muscle Repair</span>
+                <span className="text-[#fcca09]"> Muscle Repair</span>
               </span>
               <span className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wider uppercase">
                 Elite Fitness

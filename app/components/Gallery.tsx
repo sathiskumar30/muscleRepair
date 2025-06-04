@@ -87,7 +87,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+      className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 scroll-mt-20"
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -104,7 +104,7 @@ const Gallery = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Witness the excellence that defines PowerGym. From cutting-edge equipment to inspiring member
+            Witness the excellence that defines MuscleRepair. From cutting-edge equipment to inspiring member
             transformations.
           </p>
         </motion.div>
@@ -214,7 +214,7 @@ const Gallery = () => {
             </div>
 
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-black text-black mb-4">Experience PowerGym Yourself</h3>
+              <h3 className="text-3xl md:text-4xl font-black text-black mb-4">Experience MuscleRepair Yourself</h3>
               <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
                 Schedule your exclusive tour and see why we're the choice of champions.
               </p>

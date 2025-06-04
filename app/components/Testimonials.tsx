@@ -11,7 +11,7 @@ const Testimonials = () => {
       role: "Software Engineer",
       image: "/placeholder.svg?height=100&width=100",
       rating: 5,
-      text: "PowerGym completely transformed my life! The trainers are incredibly knowledgeable and the equipment is top-notch. I've lost 30 pounds and gained so much confidence.",
+      text: "MuscleRepair completely transformed my life! The trainers are incredibly knowledgeable and the equipment is top-notch. I've lost 30 pounds and gained so much confidence.",
       achievement: "Lost 30 lbs in 4 months",
     },
     {
@@ -51,13 +51,13 @@ const Testimonials = () => {
       role: "Nurse",
       image: "/placeholder.svg?height=100&width=100",
       rating: 5,
-      text: "After working long shifts, PowerGym is my sanctuary. The recovery services and relaxing environment help me unwind and stay in shape.",
+      text: "After working long shifts, MuscleRepair is my sanctuary. The recovery services and relaxing environment help me unwind and stay in shape.",
       achievement: "Improved flexibility 60%",
     },
   ]
 
   return (
-    <section id="testimonials" className="py-20 bg-white dark:bg-gray-900">
+    <section id="testimonials" className="py-20 bg-white dark:bg-gray-900 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -71,7 +71,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Hear from our amazing members who have transformed their lives and achieved their fitness goals with
-            PowerGym.
+            MuscleRepair.
           </p>
         </motion.div>
 

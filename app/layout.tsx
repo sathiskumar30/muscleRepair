@@ -6,20 +6,20 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "PowerGym - Transform Your Body, Transform Your Life",
+  title: "MuscleRepair - Transform Your Body, Transform Your Life",
   description:
-    "Premium fitness center with state-of-the-art equipment, expert trainers, and comprehensive workout programs. Join PowerGym and start your transformation today.",
+    "Premium fitness center with state-of-the-art equipment, expert trainers, and comprehensive workout programs. Join MuscleRepair and start your transformation today.",
   keywords: "gym, fitness, personal training, workout, strength training, cardio, membership",
-  authors: [{ name: "PowerGym" }],
+  authors: [{ name: "MuscleRepair" }],
   openGraph: {
-    title: "PowerGym - Transform Your Body, Transform Your Life",
+    title: "MuscleRepair - Transform Your Body, Transform Your Life",
     description: "Premium fitness center with state-of-the-art equipment and expert trainers.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PowerGym - Transform Your Body, Transform Your Life",
+    title: "MuscleRepair - Transform Your Body, Transform Your Life",
     description: "Premium fitness center with state-of-the-art equipment and expert trainers.",
   },
   robots: {

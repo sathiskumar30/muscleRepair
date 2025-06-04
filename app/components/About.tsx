@@ -3,6 +3,8 @@
 import { motion } from "framer-motion"
 import { Award, Users, Clock, Target } from "lucide-react"
 import Image from "next/image"
+import TrainerPhoto1 from '../../public/photo1.webp'
+import TrainerPhoto2 from '../../public/photo6.webp'
 
 const About = () => {
   const stats = [
@@ -13,7 +15,7 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-800 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -23,7 +25,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            About <span className="text-yellow-500">PowerGym</span>
+            About <span className="text-yellow-500">MuscleRepair</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             We're dedicated to helping you achieve your fitness goals with our world-class facilities, expert trainers,
@@ -45,14 +47,15 @@ const About = () => {
               <motion.div whileHover={{ scale: 1.05 }} className="relative overflow-hidden rounded-2xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-black/50 z-10" />
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  // src="/placeholder.svg?height=400&width=300"
+                  src={TrainerPhoto1}
                   alt="Gym Owner"
                   width={300}
                   height={400}
                   className="w-full h-80 object-cover filter contrast-110 saturate-110"
                 />
                 <div className="absolute bottom-4 left-4 z-20">
-                  <h3 className="text-white font-bold text-xl">John Smith</h3>
+                  <h3 className="text-white font-bold text-xl">M S Dhoni</h3>
                   <p className="text-yellow-400 font-medium">Owner & Founder</p>
                 </div>
                 <div className="absolute inset-0 border-4 border-yellow-500/50 rounded-2xl group-hover:border-yellow-500 transition-colors duration-300" />
@@ -64,14 +67,14 @@ const About = () => {
               <motion.div whileHover={{ scale: 1.05 }} className="relative overflow-hidden rounded-2xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-black/50 z-10" />
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src={TrainerPhoto2}
                   alt="Head Trainer"
                   width={300}
                   height={400}
                   className="w-full h-80 object-cover filter contrast-110 saturate-110"
                 />
                 <div className="absolute bottom-4 left-4 z-20">
-                  <h3 className="text-white font-bold text-xl">Sarah Johnson</h3>
+                  <h3 className="text-white font-bold text-xl">Sathis Kumar</h3>
                   <p className="text-yellow-400 font-medium">Head Trainer</p>
                 </div>
                 <div className="absolute inset-0 border-4 border-yellow-500/50 rounded-2xl group-hover:border-yellow-500 transition-colors duration-300" />

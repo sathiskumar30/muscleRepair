@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@powergym.com", "support@powergym.com"],
+      details: ["info@MuscleRepair.com", "support@MuscleRepair.com"],
     },
     {
       icon: Clock,
@@ -34,7 +34,7 @@ const Contact = () => {
   ]
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -209,11 +209,11 @@ const Contact = () => {
               <span className="text-black font-bold">G</span>
             </div>
             <span className="text-2xl font-bold text-gray-900 dark:text-white">
-              Power<span className="text-yellow-500">Gym</span>
+              Muscle<span className="text-yellow-500">Repair</span>
             </span>
           </div>
           <p className="text-gray-600 dark:text-gray-300">
-            © 2024 PowerGym. All rights reserved. Transform your body, transform your life.
+            © 2024 MuscleRepair. All rights reserved. Transform your body, transform your life.
           </p>
         </motion.div>
       </div>
