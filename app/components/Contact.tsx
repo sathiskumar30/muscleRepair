@@ -8,12 +8,12 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: ["123 Fitness Street", "Downtown City, ST 12345"],
+      details: [" ANI SPORTS CLUB #42, 22nd Cross Rd, Krishnaiah Layout, Ittamadu, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["(555) 123-4567", "(555) 987-6543"],
+      details: ["+91 90356 55143"],
     },
     {
       icon: Mail,
@@ -23,7 +23,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Hours",
-      details: ["24/7 Access for Members", "Staff: Mon-Fri 6AM-10PM"],
+      details: ["24/7 Access for Members", "Staff: Mon-Fri 5:30AM - 2PM and 4PM - 10PM"],
     },
   ]
 
